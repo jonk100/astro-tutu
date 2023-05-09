@@ -3,6 +3,7 @@ import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
 const pageTitle = "Home";
 import '../styles/global.css';
+import Card2 from '../components/Card2.astro';
 
 ---
 
@@ -34,6 +35,16 @@ import '../styles/global.css';
 				title="Community"
 				body="Come say hi to our amazing Discord community. ❤️"
 			/>
+      <Card2
+        href="/about"
+        title="About Me"
+        body="My Bio page for the Astro tutorial"
+      />
+      <Card2
+        href="/blog"
+        title="Blog"
+        body="My Blog page for the Astro tutorial"
+      />
 		</ul>
 	</main>
 </Layout>
