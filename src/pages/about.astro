@@ -22,6 +22,7 @@ const skillColor = "navy";
 
 const fontWeight = "bold";
 const textCase = "uppercase";
+import Navigation from '../components/Navigation.astro';
 
 
 ---
@@ -136,9 +137,8 @@ const textCase = "uppercase";
 </style>
 
 <body>
-  <a href="/">Home</a>
-  <a href="/about/">About</a>
-  <a href="/blog/">Blog</a>
+  <Navigation />
+
   <h1>{pageTitle}</h1>
   <h2>{pageDescription}</h2>
   <h2>... and my new Astro site!</h2>
