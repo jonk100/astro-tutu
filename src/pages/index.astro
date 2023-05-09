@@ -1,10 +1,17 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
-const pageTitle = "Home";
 import '../styles/global.css';
+
+import Layout from '../layouts/Layout.astro';
+
 import Card2 from '../components/Card2.astro';
 import Navigation from '../components/Navigation.astro';
+import Footer from '../components/Footer.astro';
+import Card from '../components/Card.astro';
+
+const pageTitle = "Home";
+
+
+
 
 ---
 
@@ -93,8 +100,12 @@ import Navigation from '../components/Navigation.astro';
 		gap: 1rem;
 		padding: 0;
 	}
-</style>
+  </style>
+<html>
+  <body>
+    <Navigation />
 
-<Navigation />
-
+    <Footer />
+  </body>
+</html>
 
